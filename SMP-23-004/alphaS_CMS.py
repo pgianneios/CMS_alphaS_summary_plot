@@ -35,13 +35,16 @@ alpha_S = [
        "obs": "Inclusive jet", "sqrts": "13", "ref": "JHEP 02:142", "year": "(2022)", "order": "NNLO" },
 
      { "val": np.array([0.1179]), "er_up": np.array([0.0019]), "er_dn": np.array([0.0019]),
-       "obs": "Dijets (2D/3D)", "sqrts": "13", "ref": "arxiv:2312.16669", "year": "(2024)", "order": "NNLO" },
+       #"obs": "Dijets (2D/3D)", "sqrts": "13", "ref": "arxiv:2312.16669", "year": "(2024)", "order": "NNLO" },
+       "obs": "Dijets (2D/3D)", "sqrts": "13", "ref": "Submitted to EPJC", "year": "(2024)", "order": "NNLO" },
  
      { "val": np.array([0.1229]), "er_up": np.array([0.0040]), "er_dn": np.array([0.0050]),
-       "obs": "Energy correlators", "sqrts": "13", "ref": "CMS-PAS-SMP-22-015", "year": "(2024)", "order": "NNLL" },
+       #"obs": "Energy correlators", "sqrts": "13", "ref": "arxiv:2402.13864", "year": "(2024)", "order": "NNLL" },
+       "obs": "Energy correlators", "sqrts": "13", "ref": "Submitted to PRL", "year": "(2024)", "order": "NNLL" },
  
      { "val": np.array([0.1177]), "er_up": np.array([0.0117]), "er_dn": np.array([0.0074]),
-       "obs": "R_{#Delta#phi}", "sqrts": "13", "ref": "CMS-PAS-SMP-22-005", "year": "(2024)", "order": "NLO" },
+       #"obs": "R_{#Delta#phi}", "sqrts": "13", "ref": "arxiv:2402.16082", "year": "(2024)", "order": "NLO" },
+       "obs": "R_{#Delta#phi}", "sqrts": "13", "ref": "Submitted to EPJC", "year": "(2024)", "order": "NLO" },
 
      # PDG 2023 world average
      { "val": np.array([0.1180]), "er_up": np.array([0.0009]), "er_dn": np.array([0.0009]),

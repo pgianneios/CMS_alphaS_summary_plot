@@ -241,11 +241,11 @@ tc.SetTextFont(61);
 tc.SetTextSize(0.045);
 tc.Draw();
 
-te = TText(0.0905,17.2,"Preliminary");
-te.SetTextAlign(11);
-te.SetTextFont(52);
-te.SetTextSize(0.042);
-te.Draw();
+#te = TText(0.0905,17.2,"Preliminary");
+#te.SetTextAlign(11);
+#te.SetTextFont(52);
+#te.SetTextSize(0.042);
+#te.Draw();
 
 # Header top right
 tt = TLatex()
