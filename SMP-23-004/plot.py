@@ -72,7 +72,7 @@ dummy.SetMinimum(1.0)
 dummy.SetMaximum(Nvalues + 3)
 dummy.GetYaxis().SetLabelSize(0.)
 dummy.GetYaxis().SetTickLength(0.)
-dummy.GetXaxis().SetTitle("#alpha_{s}(M_{Z})");
+dummy.GetXaxis().SetTitle("#alpha_{s}(m_{Z})");
 dummy.GetXaxis().SetTitleSize(0.04)
 dummy.GetXaxis().SetLabelSize(0.025)
 dummy.GetXaxis().SetTitleOffset(1.12)
@@ -252,7 +252,7 @@ tt = TLatex()
 tt.SetTextAlign(11)
 tt.SetTextSize(0.04)
 tt.SetTextColor(kBlack)
-tt.DrawLatexNDC(0.565, 0.922, "Summary of #alpha_{s}(M_{Z})")
+tt.DrawLatexNDC(0.565, 0.922, "Summary of #alpha_{s}(m_{Z})")
 
 canv.Update()
 
