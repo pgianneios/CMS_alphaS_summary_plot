@@ -40,11 +40,11 @@ alpha_S = [
  
      { "val": np.array([0.1229]), "er_up": np.array([0.0040]), "er_dn": np.array([0.0050]),
        #"obs": "Energy correlators", "sqrts": "13", "ref": "arxiv:2402.13864", "year": "(2024)", "order": "NNLL" },
-       "obs": "Energy correlators", "sqrts": "13", "ref": "Accepted by PRL", "year": "(2024)", "order": "NNLL" },
+       "obs": "Energy correlators", "sqrts": "13", "ref": "PRL 133:071903", "year": "(2024)", "order": "NNLL" },
  
      { "val": np.array([0.1177]), "er_up": np.array([0.0117]), "er_dn": np.array([0.0074]),
        #"obs": "R_{#Delta#phi}", "sqrts": "13", "ref": "arxiv:2402.16082", "year": "(2024)", "order": "NLO" },
-       "obs": "R_{#Delta#phi}", "sqrts": "13", "ref": "Accepted by EPJC", "year": "(2024)", "order": "NLO" },
+       "obs": "R_{#Delta#phi}", "sqrts": "13", "ref": "EPJC 84:842", "year": "(2024)", "order": "NLO" },
 
      # PDG 2023 world average
      { "val": np.array([0.1180]), "er_up": np.array([0.0009]), "er_dn": np.array([0.0009]),
