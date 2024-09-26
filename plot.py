@@ -234,18 +234,12 @@ t6.SetTextSize(0.02)
 t6.SetTextColor(kBlack)
 t6.DrawLatexNDC(0.42, 0.82, "Observable")
 
-# CMS text + extra text
+# CMS text
 tc = TText(0.0848,17.2,"CMS");
 tc.SetTextAlign(11);
 tc.SetTextFont(61);
 tc.SetTextSize(0.045);
 tc.Draw();
-
-#te = TText(0.0905,17.2,"Preliminary");
-#te.SetTextAlign(11);
-#te.SetTextFont(52);
-#te.SetTextSize(0.042);
-#te.Draw();
 
 # Header top right
 tt = TLatex()
